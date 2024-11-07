@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+  
+  fv_null_scanner:
+    container_name: fv_null_scanner
+    build: .
+    restart: always
+    image: viccenzo/fv_null_scanner
